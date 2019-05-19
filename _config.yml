@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Jignesh Sheth blog
 title_separator: "-"
-email: 
+email:
 description: Software Artist.
 twitter_username: jigneshsheth
 github_username: jigneshsheth
@@ -29,7 +29,7 @@ author:
   name   : "Jignesh Sheth"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Sr.Engineering Manager at Nike."
-  location: "Portland, Oregon"
+  location: "Portland, OR"
   twitter: jigneshsheth
   linkedin: jigneshsheth
   github: jigneshsheth
@@ -54,6 +54,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+      toc_label: "On this page"
 
 category_archive:
   type: liquid
@@ -86,9 +87,10 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-remote-theme
 
 
-  
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
